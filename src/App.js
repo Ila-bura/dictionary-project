@@ -19,7 +19,22 @@ export default function App() {
       </main>
       <footer className="App-footer">
         <small>
-        Coded by Ila with SheCodes</small>
+        Coded by Ila with SheCodes {""}
+        - {""}
+        <a
+          href="https://github.com/Ila-bura/dictionary-project" 
+          className="github me-1" target="_blank" rel="noreferrer"
+        >
+          Open-sourced on GitHub
+        </a>{""}{""}
+        and
+        <a
+          href="https://ila-dictionary-app.netlify.app/"
+          className="github ms-1" target="_blank" rel="noreferrer"
+        >
+        hosted on Netlify
+        </a>
+        </small>
       </footer>
     </div>
     </div>
